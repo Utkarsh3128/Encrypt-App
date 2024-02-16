@@ -13,7 +13,7 @@ import { ResultProvider } from "./Components/resultContext.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/Encrypt-App",
+    path: "/Encrypt-App/",
     element: <App />,
   },
   {
