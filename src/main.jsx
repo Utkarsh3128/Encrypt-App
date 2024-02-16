@@ -27,7 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ResultProvider>
       <RouterProvider router={router}>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/Encrypt-App/" element={<App />} />
           <Route path="/result" element={<Result />} />
         </Routes>
       </RouterProvider>
